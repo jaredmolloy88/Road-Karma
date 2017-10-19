@@ -1,0 +1,155 @@
+html{
+  background-image:URL('../images/HD-Road.jpg');
+}
+/**Start Nav Styles**/
+.main-nav{
+  background:black;
+}
+.logo{
+  height:200px;
+  
+}
+.nav-list{
+  font-size:30px;
+  list-style:none;
+  float: right;
+}
+.nav-item{
+  float:left;
+  margin-left:25px;
+  margin-right:50px;
+  list-style:none;
+  margin-top:45px;
+}
+.nav-link{
+ font-family: 'Copse', serif;
+ text-decoration: none;
+ color:#99ffcc;
+ Transition: all 1s;
+}
+.nav-link:hover{
+    text-decoration:underline;
+    font-size: 45px;
+}
+/**End Nav Styles**/
+
+/**Start Hero Styles**/
+
+.hero-background{
+  background-image:URL('../images/Roadkarma-Hero.png');
+  background-size:cover;
+  background-position:center center;
+  height:100%;
+  }
+  .hero-text{
+    text-align: center;
+    Color:grey;
+     margin-top:0px;
+     padding:225px;
+     font-size:50px;
+  }
+  /**End Hero Styles**/
+  /**Start Column Styles**/
+  .column-container:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+  .text-background{
+    background-color: rgba(1, 1, 1, .9);
+  }
+  .column-container{
+    padding:15px;
+  }
+  .column{
+    background-color: rgba(1, 1, 1, .6);
+    width:21%;
+    height:400px;
+    Border:10px solid #000000;
+    float:left;
+    margin-left:2%;
+    font-size:24px;
+    color:white;
+    text-align: center;
+  }
+  .column-image{
+    width:100%;
+  }
+  /**End Column Styles**/
+  
+  /**Start Video Section**/
+  .video{
+    width:70%;
+    margin-left:100px; 
+   
+  }
+  
+  /**End Video Section**/
+  
+  /**Start Footer Styles**/
+  
+  .main-footer{
+    border-top:px solid blue;
+    height:150px;
+  }
+  .footer-section{
+    width:33%;
+    height:150px;
+    float:left;
+    padding:15px 0px;
+    border-left:1px solid #000000;
+    text-align: center;
+    background-color: #262626;
+    font-size: 21px;
+   }
+   .section {
+  height: 50px;
+  width: 150px;
+}
+
+.section:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/**DIAMOND SHIT**/
+
+.social-media {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+.social-media.fa{
+  
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.clear-both {
+  clear: both;
+}
+.section{
+  margin:0% auto;
+}
+/**END DIAMOND SHIT**/
+
+   /**End Footer Styles**/

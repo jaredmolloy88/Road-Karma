@@ -1,0 +1,69 @@
+/**START BIO SECTION**/
+.bio-container:after{
+    Content:"";
+    display:block;
+    clear:both;
+}
+.box1{
+    Border:3px solid black;
+    Height:100%;
+    Width:49%;
+    float:left;
+}
+.box2{
+    Border:3px solid black;
+    Height:100%;
+    Width:49%;
+    float:left;
+    text-align:center;
+    color:white;
+    background-color: rgba(1, 1, 1, .6);
+}
+.name{
+    font-size:55px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.bio{
+    font-size:24px;
+}
+.selfie-pic{
+   margin-top: 75px;
+    
+     -webkit-transform: rotate(270deg);
+	    -moz-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	    -o-transform: rotate(270deg);
+	    transform: rotate(270deg);
+}
+/**END BIO SECTION**/
+
+/**Start column/contact Styles**/
+  
+  .main-contact{
+    border-top:px solid Black;
+    height:150px;
+  }
+  .contact-section{
+    width:33%;
+    height:150px;
+    float:left;
+    padding:15px 0px;
+    border-left:1px solid #000000;
+    text-align: center;
+    background-color: #000000;
+    color:#99ccff;
+    font-size:20px;
+    font-family: 'Copse', serif;
+}
+   .section {
+  height: 50px;
+  width: 150px;
+}
+
+.section:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+   /**End column/contact Styles**/

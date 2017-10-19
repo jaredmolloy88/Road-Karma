@@ -1,0 +1,15 @@
+/**START CONTACT FORM STYLES**/
+.form-container{
+    width:50%;
+    margin:25px auto 0px;
+    Background-color:rgba(77,77,51,.8);
+}
+/**END CONTACT FORM STYLES**/
+
+/**START MAP STYLES**/
+.map-container{
+    height:450px;
+    background:teal;
+    Border:10px groove #cc99ff;
+}
+/**END MAP STYLES**/
